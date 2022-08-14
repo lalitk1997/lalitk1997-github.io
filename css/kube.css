@@ -656,7 +656,8 @@ table tfoot td {
   margin-top: -1px;
 }
 .units-row {
-  margin-bottom: 1.65em;
+  /* margin-bottom: 1.65em; */
+  margin-bottom: 1em;
 }
 .width-100,
 .unit-100 {
@@ -1351,7 +1352,8 @@ input.input-smaller {
 /* NavBar */
 .navbar {
   font-size: 105%;
-  margin-bottom: 1.65em;
+  /* margin-bottom: 1.65em; */
+  margin-bottom: 1em;
 }
 .navbar:after {
   content: "";
@@ -1482,7 +1484,8 @@ input.input-smaller {
 }
 /* Vertical */
 .nav {
-  margin-bottom: 1.65em;
+  /* margin-bottom: 1.65em; */
+  margin-bottom: 1em;
 }
 .nav ul {
   list-style: none;
@@ -3395,7 +3398,8 @@ ul.dropdown li.divider {
     width: 100%;
     float: none;
     margin-left: 0;
-    margin-bottom: 1.65em;
+    /* margin-bottom: 1.65em; */
+    margin-bottom: 1em;
   }
   .unit-push-90,
   .unit-push-80,
