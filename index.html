@@ -30,8 +30,19 @@
   </head>
   <body>
     <!-- Navigation -->
-    <div class="main-nav">
-      <div class="container">
+    <div
+      class="main-nav"
+      style="
+        position: fixed;
+        width: 100%;
+        background-color: black;
+        z-index: 10;
+        opacity: 70%;
+        width: 100%;
+        font-size: 16px;
+      "
+    >
+      <div class="container" style="width: 100%; padding-left: 0%">
         <header class="group top-nav">
           <div
             class="navigation-toggle"
@@ -40,14 +51,21 @@
           >
             <span class="logo">LALIT</span>
           </div>
-          <nav id="navbar-1" class="navbar item-nav">
-            <ul>
-              <li class="active"><a href="#about">About</a></li>
-              <li><a href="#experiences">Work Experience</a></li>
+          <nav
+            id="navbar-1"
+            class="navbar item-nav"
+            style="width: 106%; margin-left: 0%"
+          >
+            <ul style="font-weight: 600">
+              <li>
+                <a href="#about" style="padding: 0%; margin: 0%">About</a>
+              </li>
+              <li><a href="#experiences">Experience</a></li>
+              <!-- <li><a href="#education">Education</a></li> -->
               <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#achievements">Achievements</a></li>
-              <li><a href="#achievements">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -60,45 +78,52 @@
         <p style="font-size: x-large">Hi, Im Lalit Kumar 👋,</p>
         <div class="units-row units-split wrap">
           <div class="unit-20">
-            <img src="img/ava.jpeg" alt="Avatar" />
+            <img
+              src="./img/image-1.png"
+              alt="Avatar"
+              style="height: 135px; width: 135px"
+            />
           </div>
           <div class="unit-80">
-            <h1>
+            <h1 style="margin: 30px">
               I am<br /><span id="typed" style="font-size: x-large"></span>
             </h1>
           </div>
-          <p style="font-size: medium">
-            Hello!! My name is Lalit Kumar, skilled as Java Back-end Developer.
-            I've always been passionate about working in the Back-end. Also, I
-            love to work on exciting projects that test what I've learnt, whilst
-            being exposed to the potential of the ever-growing technologies
-            around us. I'm always looking for better, and focuses on ethical
-            ways to solve the common problems we faced in day-to-day life.
+          <p style="font-size: large">
+            Result-Oriented Back-end web developer, passionate about developing
+            user-friendly web applications with the ability to write clean,
+            reusable, and optimized code. And the ability to perform well in a
+            team. Always looking for better,
+            and focuses on ethical ways to solve the common problems we faced in
+            day-to-day life.
           </p>
         </div>
         <div>
           <a
             style="
-              border: 1px solid rgb(150, 150, 150);
+              border: 3px solid rgb(150, 150, 150);
               text-decoration: none;
               padding: 0.5em;
               border-radius: 6px;
+              font-weight: 600;
+              margin-bottom: 10px;
+              padding: 10px;
             "
             href="https://drive.google.com/file/d/1x17F_7taMBHfiGXkhn2MMdYf2DAsuh_S/view?usp=sharing"
             target="_blank"
-            >Open Resume</a
+            >Download Resume</a
           >
-          <!-- <button class="navbar item-nav" id="open-resume"
-            style="border: 1px solid rgb(194, 193, 193); background: white; padding: 0.7em; border-radius: 6px;  color: dark-gray;" 
-            >
-          </button> -->
         </div>
+        <br />
       </div>
     </div>
 
     <!-- Work Experience DONE -->
     <div class="work section second" id="experiences">
       <div class="container">
+        <br />
+        <br />
+        <br />
         <h1>Work<br />Experiences</h1>
         <ul class="work-list">
           <li>May 2019 - Aug 2020</li>
@@ -133,24 +158,97 @@
     <!-- Skills DONE -->
     <div class="work section second" id="skills">
       <div class="container">
+        <br />
+        <br />
+        <br />
         <h1>TECHNICAL<br />SKILLS</h1>
         <ul class="skill-list list-flat">
-          <li>Front End Skills</li>
-          <h4><li>HTML / CSS / Javascript</li></h4>
+          <h3><li>Front End Skills</li></h3>
+          <h4 style="display: flex">
+            <li><img src="./img/html.svg" alt="" style="height: 70px" /></li>
+            &nbsp;
+            <li><img src="./img/css.svg" alt="" style="height: 75px" /></li>
+            &nbsp;
+            <li>
+              <img src="./img/javascript.svg" alt="" style="height: 70px" />
+            </li>
+          </h4>
+          <h5>
+            <li>
+              HTML
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Javascript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </li>
+          </h5>
         </ul>
         <ul class="skill-list list-flat">
-          <li>Back End Skills</li>
-          <h4>
-            <li>JAVA / HIBERNATE / JDBC / SPRING-BOOT / Maven / REST API</li>
+          <h3><li>Back End Skills</li></h3>
+          <h4 style="display: flex">
+            <li><img src="./img/java.svg" alt="" style="height: 70px" /></li>
+            &nbsp;&nbsp;
+            <li>
+              <img src="./img/hibernate.svg" alt="" style="height: 70px" />
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li>
+              <img src="./img/spring-boot.svg" alt="" style="height: 70px" />
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li>
+              <img
+                src="./img/maven-svgrepo-com.svg"
+                alt=""
+                style="height: 70px"
+              />
+            </li>
+            <h5>
+              <li>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JAVA
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                HIBERNATE&nbsp;&nbsp;&nbsp; SPRING-BOOT &nbsp;&nbsp;&nbsp;
+                Maven&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </li>
+            </h5>
           </h4>
         </ul>
         <ul class="skill-list list-flat">
-          <li>Database</li>
-          <h4><li>MySQL</li></h4>
+          <h3><li>Database</li></h3>
+
+          <h4 style="display: flex">
+            <li><img src="./img/mysql.svg" alt="" style="height: 70px" /></li>
+            <h5><li>&nbsp;&nbsp;MySQL</li></h5>
+          </h4>
         </ul>
         <ul class="skill-list list-flat">
-          <li>Tools</li>
-          <h4><li>AdobeXD / STS / IntelIJ / PostMan</li></h4>
+          <h3><li>Tools</li></h3>
+
+          <h4 style="display: flex">
+            <li>
+              <img src="./img/adobe-xd.svg" alt="" style="height: 60px" />
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <li><img src="./img/eclipse.svg" alt="" style="height: 60px" /></li>
+            &nbsp;&nbsp;&nbsp;
+            <li>
+              <img
+                src="./img/intellij-idea-seeklogo.com.svg"
+                alt=""
+                style="height: 60px"
+              />
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><img src="./img/postman.svg" alt="" style="height: 60px" /></li>
+          </h4>
+          <h5>
+            <li>
+              AdobeXD &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STS
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              IntelIJ
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              PostMan
+            </li>
+          </h5>
         </ul>
       </div>
     </div>
@@ -158,6 +256,9 @@
     <!-- Projects DONE -->
     <div class="work section second" id="projects">
       <div class="container">
+        <br />
+        <br />
+        <br />
         <h1 style="text-align: left">Projects<br /></h1>
         <ul class="work-list">
           <li>Clone Website</li>
@@ -165,22 +266,41 @@
             <a style="text-decoration: none"> Netmeds.com</a>
           </li>
           <li>
+            <img
+              src="./img/netmeds.png"
+              alt=""
+              style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; margin: 10px"
+            />
+          </li>
+          <li>
             <a
               href="https://luminous-jelly-c4e3d7.netlify.app/landing.html"
-              style="text-decoration: none; font-weight: 400; color: gray"
+              style="
+                text-decoration: none;
+                font-weight: 400;
+                color: gray;
+                font-size: x-large;
+                padding: 10px;
+              "
               target="_blank"
             >
               <i class="fa fa-share-square-o"></i> Live</a
             >
-            |
+            <span style="font-size: x-large">|</span>
             <a
               href="https://github.com/lalitk1997/Construct-Project-Netmeds.com"
-              style="text-decoration: none; font-weight: 400; color: gray"
+              style="
+                text-decoration: none;
+                font-weight: 400;
+                color: gray;
+                font-size: x-large;
+                padding: 10px;
+              "
               target="_blank"
               ><i class="fa fa-github"></i> Code</a
             >
           </li>
-          <li>HTML | CSS | JavaScript</li>
+          <li style="margin-top: 10px">HTML | CSS | JavaScript</li>
           <h2></h2>
           <p>
             Netmeds is the “first-to-market” to offer a pan-India solution for
@@ -201,9 +321,22 @@
             <a style="text-decoration: none"> Ssense.com</a>
           </li>
           <li>
+            <img
+              src="./img/sessne.png"
+              alt=""
+              style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; margin: 10px"
+            />
+          </li>
+          <li>
             <a
               href="https://ssense-clone-masai.netlify.app/"
-              style="text-decoration: none; font-weight: 400; color: gray"
+              style="
+                text-decoration: none;
+                font-weight: 400;
+                color: gray;
+                font-size: x-large;
+                padding: 10px;
+              "
               target="_blank"
             >
               <i class="fa fa-share-square-o"></i> Live</a
@@ -211,12 +344,18 @@
             |
             <a
               href="https://github.com/lalitk1997/Ssense-Clone"
-              style="text-decoration: none; font-weight: 400; color: gray"
+              style="
+                text-decoration: none;
+                font-weight: 400;
+                color: gray;
+                font-size: x-large;
+                padding: 10px;
+              "
               target="_blank"
               ><i class="fa fa-github"></i> Code</a
             >
           </li>
-          <li>HTML | CSS | JavaScript</li>
+          <li style="margin-top: 10px">HTML | CSS | JavaScript</li>
           <h2></h2>
           <p>
             SSENSE is a multi-brand retailer based in Montreal, Canada
@@ -247,6 +386,9 @@
     <!-- Award & Achievements DONE-->
     <div class="award section second" id="achievements">
       <div class="container">
+        <br />
+        <br />
+        <br />
         <h1>Award &amp;<br />Achievements</h1>
         <ul class="award-list list-flat">
           <li>Nov 2019</li>
@@ -281,7 +423,7 @@
 		</div>
 	</div> -->
 
-    <footer style="padding: 0%">
+    <footer style="padding: 0%" id="contact">
       <div class="container" style="margin: auto; text-align: center">
         <div class="units-row">
           <!-- <div class="unit-50">		  </div> -->
@@ -296,7 +438,7 @@
                         style="border: 1px; height: 2ex; width: 1.2ex"
                       ></i
                     ></a>
-                    <span style="color: gray; font-size: medium">
+                    <span style="color: gray; font-size: large">
                       +91-8076122040</span
                     >
                   </li>
@@ -309,7 +451,7 @@
                         style="border: 1px; height: 2ex; width: 2.5ex"
                       ></i
                     ></a>
-                    <span style="color: gray; font-size: medium">
+                    <span style="color: gray; font-size: large">
                       lalit.k1997@gmail.com</span
                     >
                   </li>
@@ -319,14 +461,14 @@
                     <i class="fa fa-phone"></i> </a>
                 </li> -->
                 <li>
-                  <a href="https://github.com/lalitk1997"
-                  target="_blank"
+                  <a href="https://github.com/lalitk1997" target="_blank"
                     ><i class="fa fa-github"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/lalit-kumar97/"
-                  target="_blank"
+                  <a
+                    href="https://www.linkedin.com/in/lalit-kumar97/"
+                    target="_blank"
                     ><i class="fa fa-linkedin"></i
                   ></a>
                 </li>
